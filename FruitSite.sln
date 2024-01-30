@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitAPI", "FruitAPI\FruitAPI.csproj", "{91668CE9-1327-4397-B2FA-5B537AEC1345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitWebApp", "FruitWeb\FruitWebApp.csproj", "{20B916CC-58F6-4729-99D7-7618DF0EE246}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FF20B7FB-86F2-4BC3-AAD8-8EFD3BFD2417}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91668CE9-1327-4397-B2FA-5B537AEC1345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91668CE9-1327-4397-B2FA-5B537AEC1345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91668CE9-1327-4397-B2FA-5B537AEC1345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91668CE9-1327-4397-B2FA-5B537AEC1345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B916CC-58F6-4729-99D7-7618DF0EE246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B916CC-58F6-4729-99D7-7618DF0EE246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B916CC-58F6-4729-99D7-7618DF0EE246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B916CC-58F6-4729-99D7-7618DF0EE246}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿services:
+  fruitapi:
+    image: fruitapi
+    build:
+      context: ./FruitAPI/
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    develop:
+      watch:
+        - path: FruitAPI
+          action: rebuild
+  fruitweb:
+    image: fruitweb
+    build:
+      context: ./FruitWeb/
+      dockerfile: Dockerfile
+    ports:
+      - "8081:80"
+    develop:
+      watch:
+        - path: FruitWeb
+          action: rebuild
